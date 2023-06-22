@@ -17,7 +17,7 @@ function NewsApp() {
     try {
       setIsLoading(true);
 
-      const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-06-21&sortBy=publishedAt&apiKey=${apiKey}`;
+      const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-05-22&sortBy=publishedAt&apiKey=${apiKey}`;
       const response = await fetch(apiUrl);
 
       if (!response.ok) {
